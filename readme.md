@@ -3,10 +3,10 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
+* **Naam:** `Jeroen + Besselink`
+* **Klas:** `vid-1a`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Zeeotters zijn te gek!`
+* **Favoriete dier:** ` ... !`
 * **Startniveau:** `blauw/rood/zwart`
 
 ## Concept
