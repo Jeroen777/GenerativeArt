@@ -1,14 +1,25 @@
-/* 👇 Start writing your p5.js code here */
+// Where is the circle
+let x, y;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(720, 400);
+  // Starts in the middle
+  x = width / 2;
+  y = height;
+}
+var data = {}; // Global object to hold results from the loadJSON call
+var bubbles = []; // Global array to hold all bubble objects
+
+//http://ergast.com/api/f1/circuits.json (aangepaste versie)
+function preload() {
+  data = loadJSON('f1.json');
+
+  console.log(data);
 }
 
-function draw() {
-  background(220);
-  ellipse(width / 2, height / 2, 50, 50);
+
+
+function draw (){
+  
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
