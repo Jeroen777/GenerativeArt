@@ -3,18 +3,13 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `Jeroen + Besselink`
-* **Klas:** `vid-1a`
+* **Naam:** `voornaam + achternaam`
+* **Klas:** `vid-1/vid-2`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** ` ... !`
+* **Favoriete dier:** `Zeeotters zijn te gek!`
 * **Startniveau:** `blauw/rood/zwart`
 
 ## Concept
-
-* Concept
-* Input variables
-* The artwork using
-* Add user  input
 
 `Beschrijf in het algemeen je concept van je project.`
 
@@ -23,12 +18,6 @@
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
 ## Onderzoek & inspiratie
-
-### Inspiratie
-
-* https://jasonwebb.github.io/2d-differential-growth-experiments/experiments/07%20-%20bounds/
-
-
 `Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
 
 ## Voortang
