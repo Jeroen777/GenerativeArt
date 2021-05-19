@@ -1,5 +1,5 @@
-var points = []
-var mult = 0.005
+let points = []
+let mult = 0.005
 let t = 0;
 let wow = 0;
 
@@ -20,12 +20,12 @@ function setup() {
   slider3.position(10, 50);
 
 
-  var density = 50;
-  var space = 20;
+  let density = 50;
+  let space = 20;
 
-  for (var x = 0; x < width; x += space) {
-    for (var y = 0; y < height; y += space) {
-      var p = createVector(x, y)
+  for (let x = 0; x < width; x += space) {
+    for (let y = 0; y < height; y += space) {
+      let p = createVector(x, y)
       points.push(p)
     }
   }
@@ -35,18 +35,18 @@ function draw() {
 
   fill(255);
   
-    var r = slider1.value();
-    var g = slider2.value();
-    var b = slider3.value();
+    let r = slider1.value();
+    let g = slider2.value();
+    let b = slider3.value();
 
     noStroke();
     fill( r, g, b);
 
-  for (var i = 0; i < points.length; i++) {
+  for (let i = 0; i < points.length; i++) {
 
     let fun = rotate(PI / noise(t + 2));
     
-    var angle = map(noise(points[i].x * mult, points[i].y * mult), 0, 1, 0, 720)
+    let angle = map(noise(points[i].x * mult, points[i].y * mult), 0, 1, 0, 720)
 
     points[i].add(createVector(cos(angle), sin(angle)))
 
