@@ -3,11 +3,11 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `Jeroen + Besselink`
+* **Naam:** `Jeroen Besselink`
 * **Klas:** `vid-1a`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** ` ... !`
-* **Startniveau:** `blauw/rood/zwart`
+* **Favoriete dier:** ` Tijger :)`
+* **Startniveau:** `rood`
 
 ## Concept
 
