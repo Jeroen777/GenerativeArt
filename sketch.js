@@ -1,5 +1,7 @@
 var points = []
 var mult = 0.005
+let t = 0;
+let wow = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
