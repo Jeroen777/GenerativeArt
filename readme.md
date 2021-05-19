@@ -68,6 +68,13 @@ Ik heb bekeken welke mogelijkheden er bestaan met betrekking tot p5js. Hier kwam
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
-* `Link naar bron 2`
-* `Link naar bron 3`
+* https://www.youtube.com/watch?v=Qf4dIN99e2w
+* https://www.youtube.com/watch?v=YcdldZ1E9gU
+* https://avinayak.github.io/art/2021/01/09/noise-planets.html
+* https://editor.p5js.org/cs4all/sketches/SyZ_u-SAe
+* https://editor.p5js.org/yellowsubmarine/sketches/7jKeK8CGW
+* https://p5js.org/reference/#/p5/noise
+* https://p5js.org/reference/#/p5/push
+* https://p5js.org/reference/#/p5/WEBGL
+* https://p5js.org/reference/#/p5/degrees
+* https://p5js.org/reference/#/p5/map
