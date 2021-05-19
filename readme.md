@@ -85,7 +85,14 @@ Deze week ben ik vooral bezig geweest met het uitzoeken hoe ik bepaalde dingen v
  * Super vet, maar nog niet echt een interactie
  * Je hebt het nu wel snel gezien 
  * Nog iets meer doen met de ronddraaien misschien?
+ 
 Met deze feedback kon ik zeker wat, en sommige dingen waren ook een beetje voor de hand liggend omdat de interactie en de randomheid nog niet echt toegevoegd was.
+
+### Week-6
+De laatste week om nog dingen toe te voegen en aan te passen. Het was deze week zeker niet makkelijk om het allemaal voor elkaar te krijgen. Maar het is gelukt om de vloeiende lijnen toe te kunnen voegen, dit was het meeste werk van alles. Ook gaan de lijnen nu random kanten op ipv maar 1 richting. En de interactie is ook deels al gelukt. Je kan tijdens het genereren de kleuren van het kunstwerk aanpassen. Maar ik wil nog een interactie toevoegen maar ik ben nog goed aan het nadenken welke dat gaat worden.
+
+![download (2)](https://user-images.githubusercontent.com/60734114/118836518-33609300-b8c4-11eb-9d1c-0d457d5e86b4.png)
+
 
 
 ## Bronnenlijst
