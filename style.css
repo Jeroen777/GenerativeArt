@@ -4,4 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: none;
+}
+
+h1 {
+  background-color: none;
+  position: absolute;
+  z-index: 0;
+  color: white;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  padding-top: 1em;
+}
+
+h1:nth-of-type(2) {
+  padding-top: 6em;
+}
+
+h1:nth-of-type(3) {
+  padding-top: 10em;
 }
