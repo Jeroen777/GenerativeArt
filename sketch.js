@@ -2,7 +2,6 @@ let marks = []
 
 let more = 0.005
 
-
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   background(0);
@@ -10,20 +9,17 @@ function setup() {
 
   frameRate(60);
 
-  textSize(32);
-  text('change color', 10, 30);
-  fill(255, 102, 153);
   slider1 = createSlider(0, 255, 100);
-  slider1.position(10, 10);
+  slider1.position(10, 60);
 
   slider2 = createSlider(0, 255, 0);
-  slider2.position(10, 30);
+  slider2.position(10, 80);
 
   slider3 = createSlider(0, 255, 255);
-  slider3.position(10, 50);
+  slider3.position(10, 100);
 
   slider4 = createSlider(90, 100, 0);
-  slider4.position(10, 130);
+  slider4.position(10, 180);
 
   let space = 20;
 
@@ -35,7 +31,7 @@ function setup() {
   }
 }
 
-function draw() {
+function draw() {  
 
   fill(255);
 
@@ -59,6 +55,19 @@ function draw() {
     ellipse(marks[i].x, marks[i].y, 0.5)
   }
 
+  function mousePressed() {
+    //declared the canvas above, so I can access it here
+    saveCanvas('myArt.png');
+  }
 
+}
 
+function keyPressed(){
+  
+  //if the key is a s
+  if(key == 's'){
+    //save out to a file
+    save('myArt.png');
+  }
+  
 }
