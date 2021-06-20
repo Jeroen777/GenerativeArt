@@ -1,3 +1,11 @@
+let r = 20;
+let g = 20;
+let b = 0;
+let lines = 1.5;
+let t = 0;
+let crazy = 720;
+
+
 let marks = []
 
 let more = 0.005
@@ -9,18 +17,6 @@ function setup() {
 
   frameRate(60);
 
-  slider1 = createSlider(0, 255, 100);
-  slider1.position(10, 60);
-
-  slider2 = createSlider(0, 255, 0);
-  slider2.position(10, 80);
-
-  slider3 = createSlider(0, 255, 255);
-  slider3.position(10, 100);
-
-  slider4 = createSlider(90, 100, 0);
-  slider4.position(10, 180);
-
   let space = 20;
 
   for (let x = 0; x < width; x += space) {
@@ -31,15 +27,12 @@ function setup() {
   }
 }
 
-function draw() {  
+function draw() {
 
   fill(255);
 
-  let t = slider1.value();
-
-  let r = slider1.value();
-  let g = slider2.value();
-  let b = slider3.value();
+  let x = mouseX;
+  let y = mouseY;
 
   noStroke();
   fill(r, g, b);
@@ -48,26 +41,66 @@ function draw() {
 
     let fun = rotate(PI / noise(t + 1));
 
-    let angle = map(noise(marks[i].x * more, marks[i].y * more), 0, 1, 0, 720)
+    let angle = map(noise(marks[i].x * more, marks[i].y * more), 0, 1, 0, crazy)
 
     marks[i].add(createVector(cos(angle), sin(angle)))
 
-    ellipse(marks[i].x, marks[i].y, 0.5)
+    ellipse(marks[i].x, marks[i].y, lines)
   }
 
-  function mousePressed() {
-    //declared the canvas above, so I can access it here
-    saveCanvas('myArt.png');
-  }
 
 }
 
-function keyPressed(){
-  
+function keyPressed() {
+
   //if the key is a s
-  if(key == 's'){
+  if (key == 's') {
     //save out to a file
     save('myArt.png');
   }
-  
+
+
+if (keyCode === UP_ARROW) {
+  lines = lines + 0.5;
+} else if (keyCode === DOWN_ARROW) {
+  lines = lines - 0.5;
+}
+
+}
+
+
+function keyTyped() {
+  if (key === 'r') {
+    r = random(255);
+    g = 0;
+    b = 0;
+
+  }
+
+  if (key === 'g') {
+    r = 0;
+    g = random(255);
+    b = 0;
+
+  }
+
+  if (key === 'b') {
+    r = 0;
+    g = 0;
+    b = random(255);
+
+  }
+
+  if (key === 'x') {
+    r = random(255);
+    g = random(255);
+    b = random(255);
+    lines = random(0.5, 2)
+    crazy = random(10000)
+  }
+
+  if (key === 'z') {
+    t = random(100);
+  }
+
 }
