@@ -97,6 +97,7 @@ function keyTyped() {
     b = random(255);
     lines = random(0.5, 2)
     crazy = random(10000)
+    t = random(100);
   }
 
   if (key === 'z') {
