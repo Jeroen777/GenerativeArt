@@ -93,7 +93,13 @@ De laatste week om nog dingen toe te voegen en aan te passen. Het was deze week 
 
 ![download (2)](https://user-images.githubusercontent.com/60734114/118836518-33609300-b8c4-11eb-9d1c-0d457d5e86b4.png)
 
+### Herkansings week
+Aan de hand van de feedback heb ik opnieuw naar mijn generative art opdracht gekeken. Waar voornamelijk veel feedback op was waren de interacties. Deze zijn nu een beetje in your face en misschien ook niet heel origineel met die sliders. Daarom heb ik er voor gekozen om verschillende knoppen op het toetsenbord te gebruiken als interactie. Zo kan je met de RGB knoppen de kleuren aanpassen, met de arrow up/down knoppen de lijn dikte aanpassen. Ook heb ik er een random button toegevoegd met X komt er een willekeurige kleur lijn dikte en verandert de layout een beetje. Het is nog steeds mogelijk om je artwork op te slaan met de S knop.
 
+![myArt (7)](https://user-images.githubusercontent.com/60734114/122672914-42da4100-d1ce-11eb-8c46-04747bddc6c5.png)
+![myArt (5)](https://user-images.githubusercontent.com/60734114/122672917-466dc800-d1ce-11eb-805d-542a7d46efc4.png)
+![myArt (8)](https://user-images.githubusercontent.com/60734114/122672937-6f8e5880-d1ce-11eb-8a20-a195b7513e58.png)
+![myArt (6)](https://user-images.githubusercontent.com/60734114/122672959-8df45400-d1ce-11eb-802e-070725e26111.png)
 
 ## Bronnenlijst
 
