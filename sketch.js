@@ -14,6 +14,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   background(0);
   angleMode(DEGREES)
+  loop();
 
   frameRate(60);
 
@@ -25,7 +26,12 @@ function setup() {
       marks.push(p)
     }
   }
+  
+  
+
 }
+
+
 
 function draw() {
 
@@ -66,6 +72,8 @@ if (keyCode === UP_ARROW) {
   lines = lines - 0.5;
 }
 
+ 
+
 }
 
 
@@ -101,7 +109,11 @@ function keyTyped() {
   }
 
   if (key === 'z') {
-    t = random(100);
+    redraw();
   }
 
 }
+
+function mousePressed() {
+    window.location.reload();
+} 
